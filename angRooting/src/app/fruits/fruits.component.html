@@ -1,1 +1,4 @@
-<p>fruits works!</p>
+<div class="row m-2">
+    <div class="col border" [attr.value]="fruits" *ngFor="let List of fruits;">{{List.name}} {{List.emoji}}</div>
+</div>
+

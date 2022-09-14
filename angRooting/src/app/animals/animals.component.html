@@ -1,14 +1,4 @@
-<div class="card-lg-12" [attr.value]="listOfLists" *ngFor="let List of listOfLists;">{{List.name}} {{List.emoji}}</div>
+<div class="row m-2">
+    <div class="col border" [attr.value]="listOfLists" *ngFor="let List of listOfLists;">{{List.name}} {{List.emoji}}</div>
+</div>
 
-
-
-<li class="col mb-4" data-tags="number numeral" data-categories="shapes">
-    <a class="d-block text-dark text-decoration-none" href="/icons/1-circle-fill/">
-    <div class="p-3 py-4 mb-2 bg-light text-center rounded">
-    <svg class="bi" width="1em" height="1em" fill="currentColor">
-    <use xlink:href="bootstrap-icons.svg#1-circle-fill"></use>
-    </svg>
-    </div>
-    <div class="name text-muted text-decoration-none text-center pt-1">1-circle-fill</div>
-    </a>
-    </li>
